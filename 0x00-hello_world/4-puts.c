@@ -1,3 +1,8 @@
+/*
+ * File: 4-puts.c
+ * Auth: Precious Bassey 
+ */
+
 #include <stdio.h>
 
 /**
