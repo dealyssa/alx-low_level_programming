@@ -18,6 +18,7 @@ void print_alphabet(void)
 	putchar('\n');
 
 }
+void print_alphabet(void);
 
 int main(void)
 {
