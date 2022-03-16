@@ -15,8 +15,15 @@ void print_alphabet_x10(void)
 
 	while (count++ <= 9)
 	{
-		for (letter = 'a'; letter <= 'z': letter++)
-			_putchar(letter);
-		_putchar('\n');
+		for (letter = 'a'; letter <= 'z'; letter++)
+			putchar(letter);
+
+		putchar('\n');
 	}
+}
+
+int main(void)
+{
+	print_alphabet_x10();
+	return (0);
 }
