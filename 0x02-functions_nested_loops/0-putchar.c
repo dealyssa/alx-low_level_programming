@@ -4,7 +4,7 @@
  *
  */
 
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Prints "_putchar.c" followed by a new line.
@@ -13,7 +13,15 @@
  */
 int main(void)
 {
-	write("_putchar\n");
+	printf('_');
+	printf('p');
+	printf('u');
+	printf('t');
+	printf('c');
+	printf('h');
+	printf('a');
+	printf('r');
+	printf('\n');
 
 	return (0);
 }
