@@ -11,7 +11,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+const char main(void)
 {
 	printf('_');
 	printf('p');
