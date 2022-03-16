@@ -8,12 +8,15 @@
 /**
  * print_alphabet - Prints the alphabet in lowercase, followed by a new line.
  */
-int print_alphabet(void)
+int main(void)
 {
+	print_alphabet();
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-		printf(letter);
+		putchar(letter);
 
 	putchar('\n');
+
+	return (0);
 }
