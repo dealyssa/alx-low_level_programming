@@ -14,3 +14,8 @@ int _isupper(int c)
 	else
 		return (0);
 }
+int main()
+{
+	_isupper(int c);
+	return (0);
+}
