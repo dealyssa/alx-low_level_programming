@@ -6,7 +6,7 @@
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-int _isupper(int c)
+int isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
@@ -14,8 +14,8 @@ int _isupper(int c)
 	else
 		return (0);
 }
-int main()
+int main(void)
 {
-	_isupper(int c);
+	int isupper(int c);
 	return (0);
 }
