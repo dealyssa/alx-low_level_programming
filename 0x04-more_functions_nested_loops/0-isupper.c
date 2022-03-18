@@ -17,6 +17,11 @@ int isupper(int c)
 }
 int main(void)
 {
+	char c;
+
+	printf("Enter any character: ");
+	scanf("%c", &c);
+
 	int isupper(int c);
 	return (0);
 }
