@@ -17,13 +17,6 @@ int isupper(int c)
 }
 int main(void)
 {
-	char c;
-
-	c = 'A';
-	printf("%c: %d\n", c, isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, isupper(c));
-
 	int isupper(int c);
 	return (0);
 }
