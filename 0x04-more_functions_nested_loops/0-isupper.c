@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -14,14 +13,4 @@ int isupper(int c)
 
 	else
 		return (0);
-}
-int main(void)
-{
-	char c;
-
-	printf("Enter any character: ");
-	scanf("%c", &c);
-
-	int isupper(int c);
-	return (0);
 }
