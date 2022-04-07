@@ -209,7 +209,7 @@ int main(int argc, char *argv[])
 
 	size = find_len(argv[1]) + find_len(argv[2]);
 	final_prod = create_xarray(size + 1);
-	next_prod = create_xarrray(size + 1);
+	next_prod = create_xarray(size + 1);
 
 	for (index = find_len(argv[2]) - 1; index >= 0; index--)
 	{
