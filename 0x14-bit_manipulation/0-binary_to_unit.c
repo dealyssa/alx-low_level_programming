@@ -1,4 +1,4 @@
-#include "bits.h"
+#include "main.h"
 
 /**
  * binary_to_unit - Converts a binary number to an unsigned int.
