@@ -1,4 +1,4 @@
-#include "bits.h"
+#include "main.h"
 
 /**
  * flip_bits - Counts the number of bits neede to be
